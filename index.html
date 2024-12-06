@@ -5,12 +5,37 @@
         <title>
             Portfolio Of Donovan S. Lee
         </title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="navbar.js"></script>
 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baskervville">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans">
     </head>
 
     <body>
+        <header>
+            <span onclick="navbarOn()">
+                <h1 id="onButton">
+                    &#9776;
+                </h1>
+            </span>
+        </header>
         
+        <div>
+            <div id = "navbar" class="overlay">
+                <span href="javascript:void(0)"  class = "button" onclick="navbarOff()">
+                    <h1 id="offButton">
+                        &times;
+                    </h1>
+                </span>
+                <div id="otherContent">
+                    <a href="#">About Me</a>
+                    <a href="#">My Work</a>
+                </div>
+            </div>
+
+            <div id = "navbarBG" class="overlayBG"></div>
+        </div>
+
     </body>
 </html>
