@@ -1,21 +1,57 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    border-bottom: 0.25em solid black;
+    padding-left: 2%;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 100%;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 35%;
+}
+
+header a img {
+    margin-top: 4%;
+    height: 4em;
 }
 
 #offButton{
-    font-size: 2.5em;
+    font-size: 4em;
+    color: white;
+    text-transform: none;
+    font-weight: bolder;
+    margin-left: 7%;
+    margin-top: 2%;
+    width: 10%;
 }
 
-.otherContent {
+#otherContent {
     position: relative;
-    text-align: left;
+    text-align: center;
     width: 90%;
     margin: auto;
+    margin-top: 5%;
 
     display: flexbox;
     flex-direction: column;
     flex-wrap: wrap;
+}
+
+#otherContent a {
+    color: white;
+    text-decoration: none;
+    font-family: 'DB Sans', sans-serif;
 }
 
 .overlay {
@@ -35,17 +71,49 @@
     -o-transition: 0.5s;
 }
 
-.overlayBG {
-    width: 0;
-    height: 100%;
-    top: 0;
-    left: 0;
+.mainContent {
+    width: 95%;
+    font-family: 'DB Sans', sans-serif;
+    margin: auto;
 
-    z-index: 1;
-    background-color: rgba(71, 71, 71, 0.5);
-    transition: 0.75s;
-    -webkit-transition: 0.75s;
-    -moz-transition: 0.75s;
-    -ms-transition: 0.75s;
-    -o-transition: 0.75s;
+    animation-name: approach;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+footer {
+    margin-top: 3%;
+    padding: 1%;
+    background-color: rgb(18, 10, 143);
+    width: 100%;
+    height: 5%;
+    color: rgba(255, 255, 255, 0);
+}
+
+footer h1 {
+    text-align: center;
+    width: 20%;
+    margin: auto;
+}
+
+@keyframes approach {
+    from {
+        opacity: 0;
+        transform: translateY(-5em);
+        -webkit-transform: translateY(-5em);
+        -moz-transform: translateY(-5em);
+        -ms-transform: translateY(-5em);
+        -o-transform: translateY(-5em);
+}
+    to {
+        opacity: 1;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+}
 }
