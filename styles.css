@@ -36,10 +36,10 @@ header a img {
 
 #otherContent {
     position: relative;
-    text-align: center;
+    text-align: right;
     width: 90%;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 2.5%;
 
     display: flexbox;
     flex-direction: column;
@@ -47,9 +47,18 @@ header a img {
 }
 
 #otherContent a {
-    color: white;
     text-decoration: none;
     font-family: 'DB Sans', sans-serif;
+}
+
+#otherContent h1 {
+    color: white;
+    line-height: 200%;
+}
+
+#otherContent h3 {
+    color: lightgray;
+    line-height: 175%;
 }
 
 .overlay {
@@ -87,16 +96,31 @@ header a img {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    column-gap: 1em;
 }
 
 .entry {
-    height: 20em;
+    width: 30%;
     justify-items: center;
     font-family: 'DB Sans', sans-serif;
+    border-right: 0.15em solid;
+    border-bottom: 0.15em solid;
+    box-shadow: 0.1em 0.1em;
+    padding: 1em;
+    transition-duration: 1s;
+}
+
+.entry:hover {
+    background-color: rgb(18, 10, 143);
+    box-shadow: 0.1em 0.1em gray;
+    color: white;
+
+    transition-duration: 0.5s;
 }
 
 .entry img {
-    height: 75%;
+    display: inline-block;
+    width: 95%;
     margin: auto;
 }
 
@@ -111,8 +135,18 @@ header a img {
     font-weight: 850;
 }
 
+.caption p {
+    font-size: 0.75em;
+    line-height: 150%;
+    text-transform: none;
+}
+
 #bottle {
-    width: 20em;
+    width: 15em;
+}
+
+#bottle img {
+    height: 11em;
 }
 
 footer {
@@ -147,4 +181,13 @@ footer h1 {
         -ms-transform: translateY(0);
         -o-transform: translateY(0);
 }
+}
+
+@keyframes gallery {
+    from {
+        scale: 0;
+    }
+    to {
+        scale: 1;
+    }
 }
