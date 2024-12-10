@@ -1,5 +1,5 @@
 function navbarOn() {
-    document.getElementById("navbar").style.width = "30%";
+    document.getElementById("navbar").style.width = "25%";
 }
 
 function navbarOff() {
