@@ -18,6 +18,8 @@ header {
     padding-left: 3.5%;
     position: fixed;
     background-color: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(0.5em);
+    -webkit-backdrop-filter: blur(0.5em);
     width: 100%;
     z-index: 1;
     top: 0;
@@ -72,6 +74,23 @@ header a img {
     line-height: 175%;
 }
 
+#otherContent h1:hover, #otherContent h3:hover {
+    color: black;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+#otherContent h1:hover {
+    background-color: cyan;
+}
+
+#otherContent h3:hover {
+    background-color: skyblue;
+}
+
 .overlay {
     height: 100%;
     width: 0;
@@ -80,7 +99,10 @@ header a img {
     top: 0;
     left: 0;
     background-color: rgb(18, 10, 143);
+    backdrop-filter: blur(0.25em);
+    -webkit-backdrop-filter: blur(0.25em);
     overflow-x: hidden;
+    opacity: 0.9;
 
     transition: 0.5s;
     -webkit-transition: 0.5s;
