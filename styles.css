@@ -66,12 +66,12 @@ header a img {
 
 #otherContent h1 {
     color: white;
-    line-height: 200%;
+    line-height: 300%;
 }
 
 #otherContent h3 {
     color: lightgray;
-    line-height: 175%;
+    line-height: 250%;
 }
 
 #otherContent h1:hover, #otherContent h3:hover {

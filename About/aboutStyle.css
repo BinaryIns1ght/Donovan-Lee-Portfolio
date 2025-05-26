@@ -34,24 +34,33 @@
 }
 
 .mainContent section article div {
-    width: 95%;
+    width: 100%;
     margin-bottom: 2em;
     text-align: center;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
 }
 
-.mainContent section article div img {
-    width: 40%;
+.mainContent section article div div {
+    width: 45%;
+}
+
+.mainContent section article div div img {
+    width: 70%;
     margin: auto;
     margin-top: 0.25em;
     box-shadow: 0.15em 0.15em black;
 }
 
-.mainContent section article div h3 {
+.mainContent section article div div h3 {
     font-style: italic;
     text-align: center;
     text-transform: capitalize;
     font-weight: 150;
-    width: 35%;
+    width: 75%;
     padding-top: 0.5em;
     margin: auto;
 }
@@ -71,6 +80,18 @@
     font-family: 'DB Sans', sans-serif;
     font-size: 1.25em;
     padding-top: 0.5em;
+    line-height: 200%;
+}
+
+#info > .Desc{
+    text-indent: 50px;
+    width: 90%;
+}
+
+.List{
+    padding-top: 1.5em;
+    margin-left: 3em;
+    padding-bottom: 1.5em;
     line-height: 200%;
 }
 
