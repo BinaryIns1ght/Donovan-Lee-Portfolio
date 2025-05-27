@@ -1,0 +1,49 @@
+#banner {
+    height: 95%;
+    width: 100%;
+}
+
+#model{
+    animation-name: approach;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+#model img {
+    width: 100%;
+    height: 25em;
+    margin-top: 5%;
+    filter: blur(0.25em);
+    -webkit-filter: blur(0.25em);
+    object-fit: cover;
+    object-position: center 70%;
+}
+
+#workContent {
+    width: 95%;
+    margin: auto;
+    margin-top: 3em;
+    box-shadow: black 0.5em 0.5em;
+    font-family: 'Baskerville', serif;
+}
+
+#landing {
+    font-size: 2em;
+    font-weight: 900;
+    width: 75%;
+    margin: auto;
+}
+
+#intro {
+    font-weight: 700;
+    font-size: 1.5em;
+    width: 95%;
+    margin: auto;
+}
+
+#landing, #intro {
+    padding-bottom: 1em;
+}

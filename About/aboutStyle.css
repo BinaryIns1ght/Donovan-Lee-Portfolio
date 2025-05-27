@@ -2,7 +2,7 @@
     margin-top: 7%;
     padding: 1em;
     padding-top: 3em;
-    padding-left: 3em;
+    padding-left: 5em;
     border-right: 0.25em solid black;
     border-bottom: 0.25em solid black;
     box-shadow: 0.25em 0.25em black;
@@ -22,6 +22,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 .mainContent section article {
@@ -49,7 +50,7 @@
 }
 
 .mainContent section article div div img {
-    width: 70%;
+    width: 90%;
     margin: auto;
     margin-top: 0.25em;
     box-shadow: 0.15em 0.15em black;
