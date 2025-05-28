@@ -28,22 +28,95 @@
     margin-top: 3em;
     box-shadow: black 0.5em 0.5em;
     font-family: 'Baskerville', serif;
+    padding: 2em;
 }
 
 #landing {
-    font-size: 2em;
-    font-weight: 900;
     width: 75%;
     margin: auto;
+    padding-bottom: 1.75em;
+}
+
+#landing h1 {
+    font-size: 3em;
+    font-weight: 900;
+    line-height: 150%;
 }
 
 #intro {
-    font-weight: 700;
-    font-size: 1.5em;
-    width: 95%;
+    width: 90%;
     margin: auto;
+    padding-bottom: 2em;
+    font-family: 'DM Sans', sans-serif;
 }
 
-#landing, #intro {
-    padding-bottom: 1em;
+#intro h3 {
+    padding-top: 1em;
+    font-weight: 700;
+    font-size: 1.75em;
+    text-indent: 2em;
+    line-height: 200%;;
+}
+
+#list {
+    border-top: 0.5em thick black;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    row-gap: 1em;
+}
+
+#list a {
+    text-decoration: none;
+}
+
+.medium {
+    box-shadow: black 0.25em 0.25em;
+    width: 90%;
+    margin: auto;
+    color: black;
+    padding: 2em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 3em;
+    justify-content: center;
+}
+
+.medium img {
+    width: 25%;
+    border: solid 0.25em green;
+    box-shadow: black 0.3em 0.3em;
+}
+
+.desc {
+    width: 71.25%;
+    align-self: center;
+}
+
+.desc h4 {
+    font-size: 2em;
+    padding-bottom: 0.75em;
+    font-weight: 900;
+}
+
+.desc p {
+    font-size: 1.25em;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    line-height: 200%;
+}
+
+#graphic-design {
+    background-color: darkseagreen;
+}
+
+#animations {
+    background-color: lightgray;
+}
+
+#animations img {
+    background-color: white;
 }
