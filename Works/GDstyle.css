@@ -1,0 +1,27 @@
+#content {
+    width: 95%;
+    margin: auto;
+    margin-top: 7.5%;
+    box-shadow: 0.25em 0.25em black;
+    padding: 1em;
+}
+
+#beginningText {
+    width: 95%;
+    font-weight: 1000;
+    font-size: 2.5em;
+    margin: auto;
+    padding-bottom: 0.75em;
+    text-transform: capitalize;
+}
+
+.bodyText {
+    width: 90%;
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 200%;
+    text-indent: 1em;
+    margin: auto;
+    padding-bottom: 0.5em;
+    font-family: 'DM Sans', serif;
+}

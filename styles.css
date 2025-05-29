@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+html {
+    animation-name: approach;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
 img {
     animation-name: appearing;
     animation-duration: 1.5s;

@@ -1,9 +1,7 @@
 #banner {
     height: 95%;
     width: 100%;
-}
 
-#model{
     animation-name: approach;
     animation-duration: 1s;
     animation-delay: 0s;
@@ -20,6 +18,13 @@
     -webkit-filter: blur(0.25em);
     object-fit: cover;
     object-position: center 70%;
+
+    animation-name: approach;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
 }
 
 #workContent {
@@ -27,7 +32,7 @@
     margin: auto;
     margin-top: 3em;
     box-shadow: black 0.5em 0.5em;
-    font-family: 'Baskerville', serif;
+    font-family: 'Baskervville', serif;
     padding: 2em;
 }
 
@@ -119,4 +124,21 @@
 
 #animations img {
     background-color: white;
+}
+
+#threeD {
+    background-color: darkgray;
+}
+
+#gameCollab {
+    background-color: lavender;
+}
+
+#photo {
+    background-color: white;
+    border: 0.25em solid black;
+}
+
+#coding {
+    background-color: lightgreen;
 }
