@@ -10,6 +10,7 @@
     width: 95%;
     font-weight: 1000;
     font-size: 2.5em;
+    font-family: 'Baskervville', serif;
     margin: auto;
     padding-bottom: 0.75em;
     text-transform: capitalize;
@@ -24,4 +25,64 @@
     margin: auto;
     padding-bottom: 0.5em;
     font-family: 'DM Sans', serif;
+}
+
+#content section {
+    width: 85%;
+    margin: auto;
+    margin-top: 2.5em;
+    border-left: 0.05em solid black;
+    padding: 1.5em;
+    box-shadow: 0.15em 0.15em black;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#content section .imagery {
+    width: 35%;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 1em;
+}
+
+#content section .imagery img {
+    width: 50%;
+    align-self: center;
+    box-shadow: 0.2em 0.2em gray;
+}
+
+.caption {
+    font-family: 'DB Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 750;
+    line-height: 150%;
+    width: 45%;
+    margin: auto;
+    padding-bottom: 1.25em;
+}
+
+.inform {
+    width: 75%;
+    align-self: center;
+}
+
+.inform h2 {
+    font-size: 2.25em;
+    padding-bottom: 1em;
+    font-variant-numeric: tabular-nums;
+    font-weight: bolder;
+    font-family: 'Baskervville', serif;
+}
+
+.inform p {
+    font-size: 1.5em;
+    padding-bottom: 0.5em;
+    font-weight: 500;
+    font-family: 'DB Sans', sans-serif;
 }
